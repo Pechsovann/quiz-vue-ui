@@ -1,0 +1,33 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/pwa": "^3.0.2",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.6.5",
+    "handy-uploader": "^1.1.5",
+    "mdbootstrap": "^4.19.2",
+    "nuxt": "^2.14.6",
+    "vue-number-input-spinner": "^2.2.0",
+    "vue-picture-input": "^2.1.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "@vue/test-utils": "^1.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.5.0",
+    "expect": "^26.6.2",
+    "jest": "^26.5.0",
+    "vue-jest": "^3.0.4"
+  }
+}
